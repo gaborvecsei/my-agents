@@ -4,6 +4,10 @@ List every coding agent session (`claude code`, `pi`) running on your machine, s
 
 ![ma demo](demo/demo.gif)
 
+> Why?
+
+Similar projects exists but I found them very bloated. This single lean script solves most of my use cases.
+
 ## Setup
 
 Requires `tmux`, `jq` and `fzf`. Claude Code agents also need the `claude` CLI on `PATH`, and the branch column needs `git`.
@@ -21,7 +25,13 @@ Any directory on your `PATH` works.
 ma            # picker: Enter jumps to the agent (if it's in tmux), ctrl-r refreshes
 ```
 
-Status: `●` waiting for input, `▶` busy, `○` idle, `?` unknown (pi outside tmux). Agents waiting for input are listed first.
+Status:
+- `●` waiting for input
+- `▶` busy
+- `○` idle
+- `?` unknown (pi outside tmux).
+
+(Agents waiting for input are listed first.)
 
 ## tmux
 
