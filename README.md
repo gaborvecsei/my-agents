@@ -2,6 +2,8 @@
 
 List every coding agent session (`claude code`, `pi`) running on your machine, see which ones are waiting for input, and jump straight to its tmux pane.
 
+![ma demo](demo/demo.gif)
+
 ## Setup
 
 Requires `tmux`, `jq` and `fzf`. Claude Code agents also need the `claude` CLI on `PATH`, and the branch column needs `git`.
